@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <link rel="shortcut icon" type="image/x-icon" href="\img\booker.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="\img\booker.ico" />
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -123,42 +123,56 @@
     </div>
     <!--/ bradcam_area  -->
     <!-- service_area -->
-    <div class="service_area">
+    <div class="service_area" style="background-color: #f8f8f8; padding: 80px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="single_service">
+                    <div class="single_service"
+                        style="background-color: #fff; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin-bottom: 30px;">
                         <div class="thumb">
-                            <img src="img\banner\banner.png" alt="Flatbed Transport Service">
+                            <img src="img\banner\banner.png" alt="Flatbed Transport Service"
+                                style="width: 100%; height: auto; transition: transform 0.3s ease;">
                         </div>
-                        <div class="service_info">
-                            <h3><a href="flatbed_service.html">Flatbed Transport</a></h3>
-                            <p>Booker T Transport LLC specializes in flatbed transport, delivering your cargo safely and
-                                on time. Our experienced team ensures your freight reaches its destination securely.</p>
+                        <div class="service_info" style="padding: 20px; text-align: center;">
+                            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 15px;"><a
+                                    href="flatbed_service.html" style="color: #333; text-decoration: none;">Flatbed
+                                    Transport</a></h3>
+                            <p style="color: #666; line-height: 1.6;">Booker T Transport LLC specializes in flatbed
+                                transport, delivering your cargo safely and on time. Our experienced team ensures your
+                                freight reaches its destination securely.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single_service">
+                    <div class="single_service"
+                        style="background-color: #fff; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin-bottom: 30px;">
                         <div class="thumb">
-                            <img src="img\banner\flat3.jpg" alt="Logistics Solutions">
+                            <img src="img\banner\flat3.jpg" alt="Logistics Solutions"
+                                style="width: 100%; height: auto; transition: transform 0.3s ease;">
                         </div>
-                        <div class="service_info">
-                            <h3><a href="logistics_service.html">Logistics Solutions</a></h3>
-                            <p>Our logistics solutions streamline your supply chain, reducing costs and improving
-                                efficiency. Partner with us for a customized logistics strategy.</p>
+                        <div class="service_info" style="padding: 20px; text-align: center;">
+                            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 15px;"><a
+                                    href="logistics_service.html"
+                                    style="color: #333; text-decoration: none;">Logistics Solutions</a></h3>
+                            <p style="color: #666; line-height: 1.6;">Our logistics solutions streamline your supply
+                                chain, reducing costs and improving efficiency. Partner with us for a customized
+                                logistics strategy.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single_service">
+                    <div class="single_service"
+                        style="background-color: #fff; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin-bottom: 30px;">
                         <div class="thumb">
-                            <img src="img\banner\flat1.jpg" alt="Storage Solutions">
+                            <img src="img\banner\flat1.jpg" alt="Storage Solutions"
+                                style="width: 100%; height: auto; transition: transform 0.3s ease;">
                         </div>
-                        <div class="service_info">
-                            <h3><a href="warehousing_service.html">Storage Solutions</a></h3>
-                            <p>Secure storage and distribution services are available through our storage solutions.
-                                Your inventory is in safe hands with us.</p>
+                        <div class="service_info" style="padding: 20px; text-align: center;">
+                            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 15px;"><a
+                                    href="warehousing_service.html"
+                                    style="color: #333; text-decoration: none;">Storage Solutions</a></h3>
+                            <p style="color: #666; line-height: 1.6;">Secure storage and distribution services are
+                                available through our storage solutions. Your inventory is in safe hands with us.</p>
                         </div>
                     </div>
                 </div>
@@ -170,18 +184,22 @@
 
 
     <!-- contact_action_area  -->
-    <div class="contact_action_area">
+    <div class="contact_action_area" style="background-color: #f8f8f8; padding: 80px 0;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-md-6">
                     <div class="action_heading">
-                        <h3>100% secure and safe</h3>
-                        <p>At Booker T Transport LLC, we prioritize the safety and security of your shipments.</p>
+                        <h3 style="font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 20px;">100% Secure
+                            and Safe</h3>
+                        <p style="font-size: 18px; color: #fff; line-height: 1.6;">At Booker T Transport LLC, we
+                            prioritize the safety and security of your shipments.</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-md-6">
-                    <div class="call_add_action">
-                        <a href="tel:5712478253" class="boxed-btn3">571 247 8253</a>
+                    <div class="call_add_action" style="text-align: right;">
+                        <a href="tel:5712478253" class="boxed-btn3"
+                            style="display: inline-block; background-color: #ff6b6b; color: #fff; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-size: 16px; font-weight: 600; transition: background-color 0.3s ease;">571
+                            247 8253</a>
                     </div>
                 </div>
             </div>
@@ -190,30 +208,38 @@
     <!-- /contact_action_area  -->
 
     <!-- chose_area -->
-    <div class="chose_area">
+    <div class="chose_area" style="background-color: #f8f8f8; padding: 80px 0;">
         <div class="container">
             <div class="features_main_wrap">
                 <div class="row align-items-center">
                     <div class="col-xl-5 col-lg-5 col-md-6">
                         <div class="about_image">
-                            <img src="img/about/about.png" alt="" />
+                            <img src="img/about/about.png" alt=""
+                                style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);" />
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="features_info">
-                            <h3>Why Choose Booker T Transport LLC?</h3>
-                            <p>
-                                When it comes to transportation services, we stand out for a
-                                multitude of reasons. Here's why you should choose us:
-                            </p>
-                            <ul>
-                                <li>Over 10 Years of Proven Excellence</li>
-                                <li>Reliable, Safe, and On-Time Deliveries</li>
-                                <li>Extensive Coverage Across the USA</li>
+                            <h3 style="font-size: 32px; font-weight: 700; color: #333; margin-bottom: 20px;">Why Choose
+                                Booker T Transport LLC?</h3>
+                            <p style="font-size: 18px; color: #666; line-height: 1.6; margin-bottom: 30px;"> When it
+                                comes to transportation services, we stand out for a multitude of reasons. Here's why
+                                you should choose us: </p>
+                            <ul style="list-style-type: none; padding-left: 0; margin-bottom: 30px;">
+                                <li style="font-size: 16px; color: #333; margin-bottom: 10px;"><i class="fas fa-check"
+                                        style="color: #ff6b6b; margin-right: 10px;"></i>Over 10 Years of Proven
+                                    Excellence</li>
+                                <li style="font-size: 16px; color: #333; margin-bottom: 10px;"><i class="fas fa-check"
+                                        style="color: #ff6b6b; margin-right: 10px;"></i>Reliable, Safe, and On-Time
+                                    Deliveries</li>
+                                <li style="font-size: 16px; color: #333; margin-bottom: 10px;"><i class="fas fa-check"
+                                        style="color: #ff6b6b; margin-right: 10px;"></i>Extensive Coverage Across the
+                                    USA</li>
                             </ul>
-
                             <div class="about_btn">
-                                <a class="boxed-btn3-line" href="{{ route('contact') }}">Learn More</a>
+                                <a class="boxed-btn3-line" href="{{ route('contact') }}"
+                                    style="display: inline-block; background-color: transparent; color: #ff6b6b; padding: 12px 24px; border: 2px solid #ff6b6b; border-radius: 30px; text-decoration: none; font-size: 16px; font-weight: 600; transition: all 0.3s ease;">Learn
+                                    More</a>
                             </div>
                         </div>
                     </div>
@@ -225,7 +251,7 @@
 
 
 
-   @include('footer')
+    @include('footer')
 
 
     <!-- Button trigger modal -->
